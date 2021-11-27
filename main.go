@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 )
 
 func main() {
@@ -12,6 +13,10 @@ func main() {
 
 	var fruit1 string = "apple"
 	fruit2 := "orange"
+
+	const pi = 22.0 / 7.0
+	const hundred = 3e2
+	const alotOfZero = 3e10
 
 	fmt.Println(name)
 
@@ -25,4 +30,8 @@ func main() {
 	fmt.Println(!(false || true))
 
 	fmt.Println(fruit1, fruit2)
+
+	fmt.Println(pi)
+	fmt.Println(math.Sin(hundred))
+	fmt.Println(int64(alotOfZero))
 }
