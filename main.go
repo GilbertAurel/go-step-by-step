@@ -6,9 +6,12 @@ import (
 
 func main() {
 	var name string = "golang"
-	var number1 int8 = 7
-	var number2 int8 = 3
+
+	var number1, number2 int8 = 7, 2
 	var result float32 = float32(number1) / float32(number2)
+
+	var fruit1 string = "apple"
+	fruit2 := "orange"
 
 	fmt.Println(name)
 
@@ -20,4 +23,6 @@ func main() {
 	fmt.Println(true)
 	fmt.Println(number1 < number2)
 	fmt.Println(!(false || true))
+
+	fmt.Println(fruit1, fruit2)
 }
