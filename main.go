@@ -9,5 +9,7 @@ func main() {
 
 	// learning.ClassicSwitch(1)
 
-	learning.SwitchType(1)
+	// learning.SwitchType(1)
+
+	learning.Array()
 }
