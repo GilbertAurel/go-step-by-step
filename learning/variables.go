@@ -1,11 +1,11 @@
-package main
+package learning
 
 import (
 	"fmt"
 	"math"
 )
 
-func main() {
+func Variables() {
 	var name string = "golang"
 
 	var number1, number2 int8 = 7, 2

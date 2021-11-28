@@ -1,8 +1,8 @@
-package main
+package learning
 
 import "fmt"
 
-func main() {
+func Loop() {
 
 	// similar to while
 	i := 1
